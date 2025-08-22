@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(167, 62, 62);
+}
+
+#color-checker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#canvas {
+  height: 60%;
+  width: 30%;
+  box-shadow: 0px 2px 13px #212121;
+
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn {
+  position: relative;
+  top: 20%;
+  font-weight: 900;
+  font-size: 5vh;
+}
+
+#red {
+  cursor: pointer;
+  color: red;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Yellow {
+  cursor: pointer;
+  color: rgb(243, 255, 24);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#green {
+  cursor: pointer;
+  color: rgb(57, 141, 0);
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#pink {
+  cursor: pointer;
+  color: rgb(236, 35, 236);
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+}
